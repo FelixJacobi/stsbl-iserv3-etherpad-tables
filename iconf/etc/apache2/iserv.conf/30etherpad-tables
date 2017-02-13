@@ -1,8 +1,10 @@
 # Etherpad ep_tables2
+  # table plugin uses hard-coded paths for the javascript and css file
   Alias /static/plugins/ep_tables2/static /usr/share/etherpad-lite/node_modules/ep_tables2/static
 
   <Directory /usr/share/etherpad-lite/node_modules/ep_tables2/static>
     Order deny,allow
     Allow from all
+    Options -Indexes
   </Directory>
 
