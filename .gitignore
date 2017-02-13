@@ -1,0 +1,5 @@
+debian/stsbl-iserv3-etherpad-tables/*
+debian/stsbl-iserv3-etherpad-tables.substvars
+debian/stsbl-iserv3-etherpad-tables.debhelper.log
+debian/files
+debian/debhelper-build-stamp

@@ -1,0 +1,8 @@
+# Etherpad ep_tables2
+  Alias /static/plugins/ep_tables2/static /usr/share/etherpad-lite/node_modules/ep_tables2/static
+
+  <Directory /usr/share/etherpad-lite/node_modules/ep_tables2/static>
+    Order deny,allow
+    Allow from all
+  </Directory>
+

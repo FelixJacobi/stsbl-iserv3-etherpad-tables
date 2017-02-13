@@ -1,0 +1,13 @@
+Source: stsbl-iserv3-etherpad-tables
+Section: misc
+Priority: extra
+Maintainer: Stadtteilschule Blankenese <repository@stsbl.de>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+
+Package: stsbl-iserv3-etherpad-tables
+Architecture: all
+Depends: iserv-portal, iserv3-etherpad, stsbl-iserv3-maintenance, etherpad-lite-tables2
+Description: IServ 3: Texte - Tabellen
+ Fügt Unterstützungen für Tabellen im IServ 3-Textemodul hinzu.
+Tag: suite::iserv:portal, role::plugin
