@@ -1,3 +1,13 @@
+stsbl-iserv3-etherpad-tables (18.05.21-1) experimental; urgency=medium
+
+  * Disable indexes
+  * Added license
+  * Updated copyright
+  * Added lintian overrides
+  * Updated packaging
+
+ -- Felix Jacobi <felix.jacobi@stsbl.de>  Mon, 21 May 2018 16:02:40 +0200
+
 stsbl-iserv3-etherpad-tables (17.02.13-0) experimental; urgency=low
 
   * Initial release.
