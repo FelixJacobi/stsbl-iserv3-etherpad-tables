@@ -10,10 +10,7 @@ Package: stsbl-iserv3-etherpad-tables
 Architecture: all
 Depends: ${misc:Depends},
   ${perl:Depends},
-  etherpad-lite-tables2,
   iserv-portal,
-  iserv3-etherpad,
-  stsbl-iserv3-maintenance,
 Xb-Private-IServ-Revision: ${iserv:Revision}
 Description: IServ 3: Texte - Tabellen
  Fügt Unterstützungen für Tabellen im IServ 3-Textemodul hinzu.

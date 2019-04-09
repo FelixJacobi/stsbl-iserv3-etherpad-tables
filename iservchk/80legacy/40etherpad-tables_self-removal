@@ -1,0 +1,7 @@
+Test "remove stsbl-iserv3-etherpad-tables"
+ ! [ "$(dpkg-query -W --showformat='${Status}' 'stsbl-iserv3-etherpad-tables' 2> /dev/null)" = "install ok installed" ]
+ ---
+ /usr/lib/iserv/news_changelog &&
+    /usr/lib/iserv/aptitude_auto remove stsbl-iserv3-etherpad-tables &&
+    iservchk -a apache
+
