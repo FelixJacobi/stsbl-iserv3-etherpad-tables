@@ -1,3 +1,15 @@
+stsbl-iserv3-etherpad-tables (19.04.09-1) experimental; urgency=medium
+
+  * Updated build rules for webpack support
+  * Updated source format
+  * Trigger self removal
+
+  iserv: Durch interne Veränderungen am Texte-Modul wird die
+    Tabellenfunktionalität leider nicht länger unterstützt. Das Modul wurde aus
+    diesem Grund entfernt.
+
+ -- Felix Jacobi <Felix@jacobi-hamburg.net>  Tue, 09 Apr 2019 23:40:52 +0200
+
 stsbl-iserv3-etherpad-tables (18.05.21-2) experimental; urgency=medium
 
   * Fixed copyright
